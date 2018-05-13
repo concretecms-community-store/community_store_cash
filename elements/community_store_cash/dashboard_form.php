@@ -5,12 +5,12 @@ extract($vars);
 
 <div class="form-group">
     <label><?= t("Minimum Order Value")?></label>
-    <input type="text" name="cashInvoiceMinimum" value="<?= $cashInvoiceMinimum?>" class="form-control">
+    <input type="text" name="cashMinimum" value="<?= $cashMinimum?>" class="form-control">
 </div>
 
 <div class="form-group">
     <label><?= t("Maximum Order Value")?></label>
-    <input type="text" name="cashInvoiceMaximum" value="<?= $cashInvoiceMaximum?>" class="form-control">
+    <input type="text" name="cashMaximum" value="<?= $cashMaximum?>" class="form-control">
 </div>
 
 <div class="form-group">
